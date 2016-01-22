@@ -1,0 +1,11 @@
+<polymer-element name="incoming-signal">
+  <template>
+    <link rel="stylesheet" href="incoming.css">
+    <div>
+      Signal: {{incomingSignal}}
+    </div>
+
+    <core-signals on-core-signal-test-notification="{{testNotificationSignal}}"></core-signals>
+
+  </template>
+</polymer-element>
